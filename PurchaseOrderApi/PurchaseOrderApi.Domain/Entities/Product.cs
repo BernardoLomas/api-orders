@@ -2,14 +2,14 @@ namespace PurchaseOrderApi.Domain.Entities
 {
     public class Product
     {
-        public Guid Id {get ; private set ; }
-        public string Name {get ; private set ; }
-        public string Description {get ; private set ; }
-        public bool IsActive {get ; private set ; }
-        public DateTime CreatedAt {get ; private set ; }
-        public DateTime UpdatedAt {get ; private set ; }
+        public Guid Id { get; private set; }
+        public string Name { get; private set; }
+        public string Description { get; private set; }
+        public bool IsActive { get; private set; }
+        public DateTime CreatedAt { get; private set; }
+        public DateTime UpdatedAt { get; private set; }
 
-        public Product( string Name, string Description)
+        public Product(string Name, string Description)
         {
             var now = DateTime.Now;
 
@@ -17,7 +17,7 @@ namespace PurchaseOrderApi.Domain.Entities
 
             if (string.IsNullOrWhiteSpace(this.Name))
             {
-                throw new ArgumentException("Product name is required.", nameof(Name));   
+                throw new ArgumentException("Product name is required.", nameof(Name));
             }
             this.Name = Name;
 
@@ -27,30 +27,35 @@ namespace PurchaseOrderApi.Domain.Entities
 
             CreatedAt = now;
 
-            UpdatedAt = now;            
+            UpdatedAt = now;
         }
 
         public void Deactivate()
         {
-            if(IsActive == false){
-                Console.WriteLine("This object is already deactivated");
+            if (!IsActive)
+            {
+                return;
             }
             else
+            {
                 IsActive = false;
-            
-            UpdatedAt = DateTime.Now;
+            }
+
+            UpdatedAt = DateTime.UtcNow;
         }
 
         public void Activate()
         {
-            if(IsActive == true)
+            if (IsActive)
             {
-                Console.WriteLine("This object is already activated");
+                return;
             }
             else
+            {
                 IsActive = true;
+            }
 
-            UpdatedAt = DateTime.Now;
+            UpdatedAt = DateTime.UtcNow;
         }
 
     }
