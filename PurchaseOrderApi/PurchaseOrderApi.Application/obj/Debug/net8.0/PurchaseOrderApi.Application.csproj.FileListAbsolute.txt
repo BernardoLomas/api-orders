@@ -1,0 +1,16 @@
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Application\bin\Debug\net8.0\PurchaseOrderApi.Application.deps.json
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Application\bin\Debug\net8.0\PurchaseOrderApi.Application.dll
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Application\bin\Debug\net8.0\PurchaseOrderApi.Application.pdb
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Application\bin\Debug\net8.0\PurchaseOrderApi.Domain.dll
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Application\bin\Debug\net8.0\PurchaseOrderApi.Domain.pdb
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Application\obj\Debug\net8.0\PurchaseOrderApi.Application.csproj.AssemblyReference.cache
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Application\obj\Debug\net8.0\PurchaseOrderApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Application\obj\Debug\net8.0\PurchaseOrderApi.Application.AssemblyInfoInputs.cache
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Application\obj\Debug\net8.0\PurchaseOrderApi.Application.AssemblyInfo.cs
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Application\obj\Debug\net8.0\PurchaseOrderApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Application\obj\Debug\net8.0\PurchaseOrderApi.Application.sourcelink.json
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Application\obj\Debug\net8.0\Purchase.C8C10309.Up2Date
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Application\obj\Debug\net8.0\PurchaseOrderApi.Application.dll
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Application\obj\Debug\net8.0\refint\PurchaseOrderApi.Application.dll
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Application\obj\Debug\net8.0\PurchaseOrderApi.Application.pdb
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Application\obj\Debug\net8.0\ref\PurchaseOrderApi.Application.dll

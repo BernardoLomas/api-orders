@@ -1,0 +1,16 @@
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\bin\Debug\net8.0\PurchaseOrderApi.Infrastructure.deps.json
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\bin\Debug\net8.0\PurchaseOrderApi.Infrastructure.dll
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\bin\Debug\net8.0\PurchaseOrderApi.Infrastructure.pdb
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\bin\Debug\net8.0\PurchaseOrderApi.Domain.dll
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\bin\Debug\net8.0\PurchaseOrderApi.Domain.pdb
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\obj\Debug\net8.0\PurchaseOrderApi.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\obj\Debug\net8.0\PurchaseOrderApi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\obj\Debug\net8.0\PurchaseOrderApi.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\obj\Debug\net8.0\PurchaseOrderApi.Infrastructure.AssemblyInfo.cs
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\obj\Debug\net8.0\PurchaseOrderApi.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\obj\Debug\net8.0\PurchaseOrderApi.Infrastructure.sourcelink.json
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\obj\Debug\net8.0\Purchase.7874AD59.Up2Date
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\obj\Debug\net8.0\PurchaseOrderApi.Infrastructure.dll
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\obj\Debug\net8.0\refint\PurchaseOrderApi.Infrastructure.dll
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\obj\Debug\net8.0\PurchaseOrderApi.Infrastructure.pdb
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\obj\Debug\net8.0\ref\PurchaseOrderApi.Infrastructure.dll
