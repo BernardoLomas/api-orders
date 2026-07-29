@@ -36,7 +36,7 @@ namespace PurchaseOrderApi.Domain.Entities
                 throw new ArgumentException("Item quantity must be greater than 0.", nameof(quantity));
             }
             Quantity = quantity;
-            
+
             if (unitPrice <= 0)
             {
                 throw new ArgumentException("Unit price should be higher than 0.", nameof(unitPrice));
@@ -50,6 +50,16 @@ namespace PurchaseOrderApi.Domain.Entities
 
             Currency = currency.ToUpperInvariant();
 
+        }
+
+        public void IncreaseQuantity(int quantity)
+        {
+            if (quantity <= 0)
+            {
+                throw new ArgumentException("The quantity to increase must be greater than zero.", nameof(quantity));
+            }
+
+            Quantity += quantity;
         }
     }
 }
