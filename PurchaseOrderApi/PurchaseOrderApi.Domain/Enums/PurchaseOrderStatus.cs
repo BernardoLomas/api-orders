@@ -1,6 +1,6 @@
 namespace PurchaseOrderApi.Domain.Enums
 {
-    public enum Status
+    public enum PurchaseOrderStatus
     {
         Draft = 1,
         Confirmed = 2,

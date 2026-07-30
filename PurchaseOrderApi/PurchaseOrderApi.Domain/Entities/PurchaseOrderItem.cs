@@ -16,30 +16,27 @@ namespace PurchaseOrderApi.Domain.Entities
 
         public PurchaseOrderItem(Guid purchaseOrderId, Guid productId, int quantity, decimal unitPrice, string currency)
         {
-            CreatedAt = DateTime.UtcNow;
-            Id = Guid.NewGuid();
-
             if (purchaseOrderId == Guid.Empty)
             {
-                throw new ArgumentException("Purchase order ID is required and must have to be filled.", nameof(purchaseOrderId));
+                throw new ArgumentException("Purchase order ID is required.", nameof(purchaseOrderId));
             }
             PurchaseOrderId = purchaseOrderId;
 
             if (productId == Guid.Empty)
             {
-                throw new ArgumentException("Product ID is required and must have to be filled.", nameof(productId));
+                throw new ArgumentException("Product ID is required.", nameof(productId));
             }
             ProductId = productId;
 
             if (quantity <= 0)
             {
-                throw new ArgumentException("Item quantity must be greater than 0.", nameof(quantity));
+                throw new ArgumentOutOfRangeException("Item quantity must be greater than 0.", nameof(quantity));
             }
             Quantity = quantity;
 
             if (unitPrice <= 0)
             {
-                throw new ArgumentException("Unit price should be higher than 0.", nameof(unitPrice));
+                throw new ArgumentOutOfRangeException("Unit price should be higher than 0.", nameof(unitPrice));
             }
             UnitPrice = unitPrice;
 
@@ -48,7 +45,13 @@ namespace PurchaseOrderApi.Domain.Entities
                 throw new ArgumentException("The currency code must be indicated using three letters.", nameof(currency));
             }
 
+            Id = Guid.NewGuid();
+            PurchaseOrderId = purchaseOrderId;
+            ProductId = productId;
+            Quantity = quantity;
+            UnitPrice = unitPrice;
             Currency = currency.ToUpperInvariant();
+            CreatedAt = DateTime.UtcNow;
 
         }
 
@@ -56,7 +59,7 @@ namespace PurchaseOrderApi.Domain.Entities
         {
             if (quantity <= 0)
             {
-                throw new ArgumentException("The quantity to increase must be greater than zero.", nameof(quantity));
+                throw new ArgumentOutOfRangeException("The quantity to increase must be greater than 0.", nameof(quantity));
             }
 
             Quantity += quantity;
