@@ -14,3 +14,5 @@ C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\Purcha
 C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\obj\Debug\net8.0\refint\PurchaseOrderApi.Infrastructure.dll
 C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\obj\Debug\net8.0\PurchaseOrderApi.Infrastructure.pdb
 C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\obj\Debug\net8.0\ref\PurchaseOrderApi.Infrastructure.dll
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\bin\Debug\net8.0\PurchaseOrderApi.Application.dll
+C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\bin\Debug\net8.0\PurchaseOrderApi.Application.pdb

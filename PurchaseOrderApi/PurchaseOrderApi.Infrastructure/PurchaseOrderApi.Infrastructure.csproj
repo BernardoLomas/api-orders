@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PurchaseOrderApi.Domain\PurchaseOrderApi.Domain.csproj" />
+    <ProjectReference Include="..\PurchaseOrderApi.Application\PurchaseOrderApi.Application.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

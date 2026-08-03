@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "PurchaseOrderApi.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "PurchaseOrderApi.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PurchaseOrderApi.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PurchaseOrderApi.Application.dll": {}
+        }
+      },
       "PurchaseOrderApi.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -15,6 +28,11 @@
     }
   },
   "libraries": {
+    "PurchaseOrderApi.Application/1.0.0": {
+      "type": "project",
+      "path": "../PurchaseOrderApi.Application/PurchaseOrderApi.Application.csproj",
+      "msbuildProject": "../PurchaseOrderApi.Application/PurchaseOrderApi.Application.csproj"
+    },
     "PurchaseOrderApi.Domain/1.0.0": {
       "type": "project",
       "path": "../PurchaseOrderApi.Domain/PurchaseOrderApi.Domain.csproj",
@@ -23,6 +41,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "PurchaseOrderApi.Application >= 1.0.0",
       "PurchaseOrderApi.Domain >= 1.0.0"
     ]
   },
@@ -51,6 +70,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Application\\PurchaseOrderApi.Application.csproj": {
+              "projectPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Application\\PurchaseOrderApi.Application.csproj"
+            },
             "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj": {
               "projectPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj"
             }

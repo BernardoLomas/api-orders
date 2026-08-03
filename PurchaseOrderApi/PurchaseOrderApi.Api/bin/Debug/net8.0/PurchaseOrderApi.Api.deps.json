@@ -84,6 +84,7 @@
       },
       "PurchaseOrderApi.Infrastructure/1.0.0": {
         "dependencies": {
+          "PurchaseOrderApi.Application": "1.0.0",
           "PurchaseOrderApi.Domain": "1.0.0"
         },
         "runtime": {

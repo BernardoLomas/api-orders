@@ -8,10 +8,22 @@
     ".NETCoreApp,Version=v8.0": {
       "PurchaseOrderApi.Infrastructure/1.0.0": {
         "dependencies": {
+          "PurchaseOrderApi.Application": "1.0.0",
           "PurchaseOrderApi.Domain": "1.0.0"
         },
         "runtime": {
           "PurchaseOrderApi.Infrastructure.dll": {}
+        }
+      },
+      "PurchaseOrderApi.Application/1.0.0": {
+        "dependencies": {
+          "PurchaseOrderApi.Domain": "1.0.0"
+        },
+        "runtime": {
+          "PurchaseOrderApi.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "PurchaseOrderApi.Domain/1.0.0": {
@@ -26,6 +38,11 @@
   },
   "libraries": {
     "PurchaseOrderApi.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PurchaseOrderApi.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
