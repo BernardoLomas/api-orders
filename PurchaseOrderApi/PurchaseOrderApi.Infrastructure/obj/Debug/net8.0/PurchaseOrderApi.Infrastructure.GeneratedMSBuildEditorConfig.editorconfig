@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PurchaseOrderApi.Infrastructure
-build_property.ProjectDir = C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Infrastructure\
+build_property.ProjectDir = C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderAPi\PurchaseOrderApi.Infrastructure\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
