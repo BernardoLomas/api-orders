@@ -1,15 +1,15 @@
 using Microsoft.AspNetCore.Mvc;
+using PurchaseOrderApi.Application.PurchaseOrders.Create;
 
 namespace PurchaseOrderApi.Api.Controllers;
 
 [ApiController]
 [Route("purchase-orders")]
-
-public class PurchaseOrderController : ControllerBase
+public class PurchaseOrdersController : ControllerBase
 {
     private readonly CreatePurchaseOrderHandler _handler;
 
-    public PurchaseOrderController(CreatePurchaseOrderHandler handler)
+    public PurchaseOrdersController(CreatePurchaseOrderHandler handler)
     {
         _handler = handler;
     }
