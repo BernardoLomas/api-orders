@@ -28,7 +28,10 @@ serviceProvider.GetRequiredService<InMemoryPurchaseOrderRepository>());
 
 builder.Services.AddScoped<CreatePurchaseOrderHandler>();
 
+builder.Services.AddSingleton<InMemoryDataSeeder>();
 var app = builder.Build();
+var seeder = app.Services.GetRequiredService<InMemoryDataSeeder>();
+seeder.Seed();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

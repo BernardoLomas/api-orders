@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderAPi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj": {}
+    "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderAPi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj": {
+    "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderAPi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj",
         "projectName": "PurchaseOrderApi.Domain",
-        "projectPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderAPi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj",
+        "projectPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj",
         "packagesPath": "C:\\Users\\berna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderAPi\\PurchaseOrderApi.Domain\\obj\\",
+        "outputPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\berna\\AppData\\Roaming\\NuGet\\NuGet.Config"

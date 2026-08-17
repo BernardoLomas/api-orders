@@ -506,11 +506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderAPi\\PurchaseOrderApi.Api\\PurchaseOrderApi.Api.csproj",
+      "projectUniqueName": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Api\\PurchaseOrderApi.Api.csproj",
       "projectName": "PurchaseOrderApi.Api",
-      "projectPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderAPi\\PurchaseOrderApi.Api\\PurchaseOrderApi.Api.csproj",
+      "projectPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Api\\PurchaseOrderApi.Api.csproj",
       "packagesPath": "C:\\Users\\berna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderAPi\\PurchaseOrderApi.Api\\obj\\",
+      "outputPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\berna\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -525,11 +525,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderAPi\\PurchaseOrderApi.Application\\PurchaseOrderApi.Application.csproj": {
-              "projectPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderAPi\\PurchaseOrderApi.Application\\PurchaseOrderApi.Application.csproj"
+            "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Application\\PurchaseOrderApi.Application.csproj": {
+              "projectPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Application\\PurchaseOrderApi.Application.csproj"
             },
-            "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderAPi\\PurchaseOrderApi.Infrastructure\\PurchaseOrderApi.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderAPi\\PurchaseOrderApi.Infrastructure\\PurchaseOrderApi.Infrastructure.csproj"
+            "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Infrastructure\\PurchaseOrderApi.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Infrastructure\\PurchaseOrderApi.Infrastructure.csproj"
             }
           }
         }

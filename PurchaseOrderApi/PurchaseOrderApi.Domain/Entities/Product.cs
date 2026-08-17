@@ -15,11 +15,12 @@ namespace PurchaseOrderApi.Domain.Entities
 
             Id = Guid.NewGuid();
 
+            this.Name = Name;
             if (string.IsNullOrWhiteSpace(this.Name))
             {
                 throw new ArgumentException("Product name is required.", nameof(Name));
             }
-            this.Name = Name;
+            
 
             this.Description = Description;
 
