@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Api\\PurchaseOrderApi.Api.csproj": {}
+    "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Api\\PurchaseOrderApi.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Api\\PurchaseOrderApi.Api.csproj": {
+    "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Api\\PurchaseOrderApi.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Api\\PurchaseOrderApi.Api.csproj",
+        "projectUniqueName": "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Api\\PurchaseOrderApi.Api.csproj",
         "projectName": "PurchaseOrderApi.Api",
-        "projectPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Api\\PurchaseOrderApi.Api.csproj",
+        "projectPath": "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Api\\PurchaseOrderApi.Api.csproj",
         "packagesPath": "C:\\Users\\berna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Api\\obj\\",
+        "outputPath": "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\berna\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -24,13 +24,14 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Application\\PurchaseOrderApi.Application.csproj": {
-                "projectPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Application\\PurchaseOrderApi.Application.csproj"
+              "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Application\\PurchaseOrderApi.Application.csproj": {
+                "projectPath": "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Application\\PurchaseOrderApi.Application.csproj"
               },
-              "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Infrastructure\\PurchaseOrderApi.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Infrastructure\\PurchaseOrderApi.Infrastructure.csproj"
+              "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Infrastructure\\PurchaseOrderApi.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Infrastructure\\PurchaseOrderApi.Infrastructure.csproj"
               }
             }
           }
@@ -44,10 +45,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Swashbuckle.AspNetCore": {
@@ -66,6 +69,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.30, 8.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.30, 8.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.30, 8.0.30]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.30, 8.0.30]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -74,18 +95,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.409/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Application\\PurchaseOrderApi.Application.csproj": {
+    "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Application\\PurchaseOrderApi.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Application\\PurchaseOrderApi.Application.csproj",
+        "projectUniqueName": "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Application\\PurchaseOrderApi.Application.csproj",
         "projectName": "PurchaseOrderApi.Application",
-        "projectPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Application\\PurchaseOrderApi.Application.csproj",
+        "projectPath": "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Application\\PurchaseOrderApi.Application.csproj",
         "packagesPath": "C:\\Users\\berna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Application\\obj\\",
+        "outputPath": "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\berna\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -98,10 +119,11 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj": {
-                "projectPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj"
+              "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj"
               }
             }
           }
@@ -115,10 +137,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -131,23 +155,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.30, 8.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.30, 8.0.30]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.30, 8.0.30]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.409/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj": {
+    "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj",
         "projectName": "PurchaseOrderApi.Domain",
-        "projectPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj",
+        "projectPath": "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj",
         "packagesPath": "C:\\Users\\berna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\obj\\",
+        "outputPath": "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\berna\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -160,6 +198,7 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -173,10 +212,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -189,23 +230,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.30, 8.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.30, 8.0.30]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.30, 8.0.30]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.409/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Infrastructure\\PurchaseOrderApi.Infrastructure.csproj": {
+    "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Infrastructure\\PurchaseOrderApi.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Infrastructure\\PurchaseOrderApi.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Infrastructure\\PurchaseOrderApi.Infrastructure.csproj",
         "projectName": "PurchaseOrderApi.Infrastructure",
-        "projectPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Infrastructure\\PurchaseOrderApi.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Infrastructure\\PurchaseOrderApi.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\berna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\berna\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -218,13 +273,14 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Application\\PurchaseOrderApi.Application.csproj": {
-                "projectPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Application\\PurchaseOrderApi.Application.csproj"
+              "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Application\\PurchaseOrderApi.Application.csproj": {
+                "projectPath": "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Application\\PurchaseOrderApi.Application.csproj"
               },
-              "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj": {
-                "projectPath": "C:\\Users\\berna\\Documents\\Repositórios GitHub\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj"
+              "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\berna\\Documents\\GitHubRepos\\api-orders\\PurchaseOrderApi\\PurchaseOrderApi.Domain\\PurchaseOrderApi.Domain.csproj"
               }
             }
           }
@@ -238,10 +294,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -254,12 +312,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.30, 8.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.30, 8.0.30]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.30, 8.0.30]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.409/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
