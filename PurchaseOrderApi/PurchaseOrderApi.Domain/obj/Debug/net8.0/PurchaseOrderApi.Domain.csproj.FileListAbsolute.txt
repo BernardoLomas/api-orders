@@ -10,3 +10,15 @@ C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\Purcha
 C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Domain\obj\Debug\net8.0\refint\PurchaseOrderApi.Domain.dll
 C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Domain\obj\Debug\net8.0\PurchaseOrderApi.Domain.pdb
 C:\Users\berna\Documents\Repositórios GitHub\api-orders\PurchaseOrderApi\PurchaseOrderApi.Domain\obj\Debug\net8.0\ref\PurchaseOrderApi.Domain.dll
+C:\Users\berna\Documents\GitHubRepos\api-orders\PurchaseOrderApi\PurchaseOrderApi.Domain\bin\Debug\net8.0\PurchaseOrderApi.Domain.deps.json
+C:\Users\berna\Documents\GitHubRepos\api-orders\PurchaseOrderApi\PurchaseOrderApi.Domain\bin\Debug\net8.0\PurchaseOrderApi.Domain.dll
+C:\Users\berna\Documents\GitHubRepos\api-orders\PurchaseOrderApi\PurchaseOrderApi.Domain\bin\Debug\net8.0\PurchaseOrderApi.Domain.pdb
+C:\Users\berna\Documents\GitHubRepos\api-orders\PurchaseOrderApi\PurchaseOrderApi.Domain\obj\Debug\net8.0\PurchaseOrderApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berna\Documents\GitHubRepos\api-orders\PurchaseOrderApi\PurchaseOrderApi.Domain\obj\Debug\net8.0\PurchaseOrderApi.Domain.AssemblyInfoInputs.cache
+C:\Users\berna\Documents\GitHubRepos\api-orders\PurchaseOrderApi\PurchaseOrderApi.Domain\obj\Debug\net8.0\PurchaseOrderApi.Domain.AssemblyInfo.cs
+C:\Users\berna\Documents\GitHubRepos\api-orders\PurchaseOrderApi\PurchaseOrderApi.Domain\obj\Debug\net8.0\PurchaseOrderApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\berna\Documents\GitHubRepos\api-orders\PurchaseOrderApi\PurchaseOrderApi.Domain\obj\Debug\net8.0\PurchaseOrderApi.Domain.sourcelink.json
+C:\Users\berna\Documents\GitHubRepos\api-orders\PurchaseOrderApi\PurchaseOrderApi.Domain\obj\Debug\net8.0\PurchaseOrderApi.Domain.dll
+C:\Users\berna\Documents\GitHubRepos\api-orders\PurchaseOrderApi\PurchaseOrderApi.Domain\obj\Debug\net8.0\refint\PurchaseOrderApi.Domain.dll
+C:\Users\berna\Documents\GitHubRepos\api-orders\PurchaseOrderApi\PurchaseOrderApi.Domain\obj\Debug\net8.0\PurchaseOrderApi.Domain.pdb
+C:\Users\berna\Documents\GitHubRepos\api-orders\PurchaseOrderApi\PurchaseOrderApi.Domain\obj\Debug\net8.0\ref\PurchaseOrderApi.Domain.dll

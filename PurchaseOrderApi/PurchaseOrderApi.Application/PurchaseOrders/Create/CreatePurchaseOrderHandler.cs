@@ -22,9 +22,7 @@ namespace PurchaseOrderApi.Application.PurchaseOrders.Create
             _purchaseOrderRepository = purchaseOrderRepository;
         }
 
-        public async Task<CreatePurchaseOrderResult> HandleAsync(
-            CreatePurchaseOrderCommand command,
-            CancellationToken cancellationToken = default)
+        public async Task<CreatePurchaseOrderResult> HandleAsync(CreatePurchaseOrderCommand command, CancellationToken cancellationToken = default)
         {
             ArgumentNullException.ThrowIfNull(command);
 

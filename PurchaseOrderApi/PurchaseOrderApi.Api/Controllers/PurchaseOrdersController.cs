@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using PurchaseOrderApi.Api.Requests;
 using PurchaseOrderApi.Application.PurchaseOrders.Create;
+using PurchaseOrderApi.Application.PurchaseOrders.GetById;
+using PurchaseOrderApi.Domain.Entities;
 
 namespace PurchaseOrderApi.Api.Controllers;
 
@@ -9,10 +11,12 @@ namespace PurchaseOrderApi.Api.Controllers;
 public class PurchaseOrdersController : ControllerBase
 {
     private readonly CreatePurchaseOrderHandler _handler;
+    private readonly GetPurchaseOrderHandler _getHandler;
 
-    public PurchaseOrdersController(CreatePurchaseOrderHandler handler)
+    public PurchaseOrdersController(CreatePurchaseOrderHandler handler, GetPurchaseOrderHandler getHandler)
     {
         _handler = handler;
+        _getHandler = getHandler;
     }
 
     [HttpPost]
@@ -33,6 +37,16 @@ public class PurchaseOrdersController : ControllerBase
         return Created($"/purchase-orders/{result.Id}", result);
     }
 
-    [HttpGet]
-    public async Task<IActionResult> CreatedAtAction([FromBody] )
+    [HttpGet("{id:guid}")]
+    public async Task<IActionResult> GetById([FromRoute] Guid id, CancellationToken cancellationToken)
+    {
+        PurchaseOrder? purchaseOrder = await _getHandler.HandleAsync(id, cancellationToken);
+
+        if(purchaseOrder is null)
+        {
+            return NotFound();
+        }
+
+        return Ok(purchaseOrder);
+    }
 }

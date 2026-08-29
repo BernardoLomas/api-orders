@@ -21,7 +21,7 @@
         },
         "runtime": {
           "PurchaseOrderApi.Application.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -29,7 +29,7 @@
       "PurchaseOrderApi.Domain/1.0.0": {
         "runtime": {
           "PurchaseOrderApi.Domain.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
