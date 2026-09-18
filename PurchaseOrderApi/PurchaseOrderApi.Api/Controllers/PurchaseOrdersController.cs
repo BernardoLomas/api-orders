@@ -46,7 +46,6 @@ public class PurchaseOrdersController : ControllerBase
         {
             return NotFound();
         }
-
         return Ok(purchaseOrder);
     }
 }
