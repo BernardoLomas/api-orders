@@ -16,6 +16,15 @@ namespace PurchaseOrderApi.Infrastructure.Persistence.InMemory
             return Task.FromResult(supplier);
         }
 
+        public Task<IReadOnlyCollection<Supplier>> GetActiveAsync(CancellationToken cancellationToken = default)
+        {
+            cancellationToken.ThrowIfCancellationRequested();
+
+            IReadOnlyCollection<Supplier> activeSuppliers = _suppliers.Values.Where(supplier => supplier.IsActive).ToList();
+
+            return Task.FromResult(activeSuppliers);
+        }
+
         public void Add(Supplier supplier)
         {
             ArgumentNullException.ThrowIfNull(supplier);
