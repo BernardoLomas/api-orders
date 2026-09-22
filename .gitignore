@@ -1,0 +1,59 @@
+# Build outputs
+**/bin/
+**/obj/
+artifacts/
+
+# Test outputs and coverage
+TestResults/
+**/TestResults/
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code local settings
+.vscode/
+
+# JetBrains Rider / ReSharper
+.idea/
+*.sln.iml
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet packages and generated files
+*.nupkg
+*.snupkg
+packages/
+**/packages/*
+!**/packages/build/
+
+# Logs and local runtime files
+*.log
+logs/
+*.pid
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+secrets.json
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~

@@ -12,7 +12,7 @@ namespace PurchaseOrderApi.Domain.Entities
         public Guid SupplierId { get; private set; }
         public PurchaseOrderStatus PurchaseOrderStatus { get; private set; }
         public string Currency { get; private set; }
-        public decimal Total { get; private set; }
+        public decimal Total => _items.Sum(item => item.Total);
         public DateTime CreatedAt { get; private set; }
         public DateTime UpdatedAt { get; private set; }
         public IReadOnlyCollection<PurchaseOrderItem> Items => _items.AsReadOnly();
