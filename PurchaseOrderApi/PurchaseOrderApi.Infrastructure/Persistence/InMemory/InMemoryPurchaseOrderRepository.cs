@@ -10,6 +10,7 @@ namespace PurchaseOrderApi.Infrastructure.Persistence.InMemory
         public Task AddAsync(PurchaseOrder purchaseOrder, CancellationToken cancellationToken = default)
         {
             cancellationToken.ThrowIfCancellationRequested();
+            
             ArgumentNullException.ThrowIfNull(purchaseOrder);
 
             _purchaseOrders[purchaseOrder.Id] = purchaseOrder;
@@ -20,7 +21,9 @@ namespace PurchaseOrderApi.Infrastructure.Persistence.InMemory
         public Task<PurchaseOrder?> GetById(Guid id, CancellationToken cancellationToken = default)
         {
             cancellationToken.ThrowIfCancellationRequested();
+
             _purchaseOrders.TryGetValue(id, out var purchaseOrder);
+
             return Task.FromResult(purchaseOrder);
         } 
     }

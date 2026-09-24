@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using PurchaseOrderApi.Api.Requests;
 using PurchaseOrderApi.Application.PurchaseOrders.Create;
 using PurchaseOrderApi.Application.PurchaseOrders.GetById;
-using PurchaseOrderApi.Domain.Entities;
 
 namespace PurchaseOrderApi.Api.Controllers;
 
@@ -38,14 +37,17 @@ public class PurchaseOrdersController : ControllerBase
     }
 
     [HttpGet("{id:guid}")]
-    public async Task<IActionResult> GetById([FromRoute] Guid id, CancellationToken cancellationToken)
+    [ProducesResponseType(typeof(PurchaseOrderResult), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<ActionResult<PurchaseOrderResult>> GetById([FromRoute] Guid id, CancellationToken cancellationToken)
     {
-        PurchaseOrder? purchaseOrder = await _getHandler.HandleAsync(id, cancellationToken);
+        PurchaseOrderResult? result = await _getHandler.HandleAsync(id, cancellationToken);
 
-        if(purchaseOrder is null)
+        if(result is null)
         {
             return NotFound();
         }
-        return Ok(purchaseOrder);
+
+        return Ok(result);
     }
 }
