@@ -2,6 +2,7 @@ using PurchaseOrderApi.Application.Abstractions.Repositories;
 using PurchaseOrderApi.Application.PurchaseOrders.Create;
 using PurchaseOrderApi.Application.PurchaseOrders.GetById;
 using PurchaseOrderApi.Application.Suppliers.GetActive;
+using PurchaseOrderApi.Application.Suppliers.GetProducts;
 using PurchaseOrderApi.Infrastructure.Persistence.InMemory;
 
 
@@ -32,6 +33,7 @@ serviceProvider.GetRequiredService<InMemoryPurchaseOrderRepository>());
 builder.Services.AddScoped<CreatePurchaseOrderHandler>();
 builder.Services.AddScoped<GetPurchaseOrderHandler>();
 builder.Services.AddScoped<GetActiveSuppliersHandler>();
+builder.Services.AddScoped<GetSupplierProductsHandler>();
 
 builder.Services.AddSingleton<InMemoryDataSeeder>();
 var app = builder.Build();
